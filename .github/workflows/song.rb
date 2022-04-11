@@ -1,3 +1,5 @@
+require 'pry'
+
 class Song 
 
     attr_accessor :name
@@ -9,3 +11,4 @@ end
 
 hotline_bling = Song.new("Hotline Bling")
 hotline_bling = Song.new("THriller")
+binding.pry
